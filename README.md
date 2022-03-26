@@ -7,6 +7,11 @@
 
 머신러닝 입문
 
+줌 : https://us02web.zoom.us/j/86292855180?pwd=VlBkOWZ4WWFpdTNMZk1rOUtuakNtZz09
+* 회의 ID: 862 9285 5180
+* 암호: 2171010
+
+홈페이지 주소 :  hub.aifor.kr
 
 핑 : https://docs.google.com/spreadsheets/d/1xKkYtre7_xBOXXDBDkRPQLoRZvcHWGD5ZBEbmZH7Acs/edit#gid=337704553
 
