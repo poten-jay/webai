@@ -1,0 +1,44 @@
+<html>
+    <body>
+        1+1<br>
+        <!-- 자바스크립트는 동적이다. -->
+        <script>
+            document.write(1+1);
+        </script>
+        <br>
+        <script>
+            document.write(Math.random());
+        </script>
+        <br>
+        <script>
+            var today = new Date();
+            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            document.write(time);
+        </script>
+        <input 
+        type="button" 
+        value="hi" 
+        onclick="speechSynthesis.speak(new SpeechSynthesisUtterance('안녕하세요?'));"
+        >
+        <br>
+        <input 
+        type="text" onfocus="speechSynthesis.speak(new SpeechSynthesisUtterance('입력해 주세요.'));" 
+        onchange="speechSynthesis.speak(new SpeechSynthesisUtterance('값이 변경되었어요.'));"
+        >
+        <br>
+        <br>
+        <input
+        type="text"
+        onchange="speechSynthesis.speak(new SpeechSynthesisUtterance(this.value));"
+        >
+
+    </body>
+</html>
+<!-- html 은 정보 -->
+<!-- css 는 디자인 -->
+<!-- javascript는 상호작용 -->
+
+<!-- 자바스크립트 실행 방법 -->
+<!-- 1. 콘솔창에서 사용 -->
+<!-- 2. script tag 사용 -->
+<!-- 3. 이벤트로 출력 -->
